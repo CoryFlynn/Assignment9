@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title> Tone Control for Speech-Generating Devices </title>
+    <link rel="stylesheet" href="AAC.css" type="text/css">
+  </head>
+  <body>
+    <section id="container">
+      <div id="VirtualKbd">
+        <p> Output statement here </p> <br/> <br/>
+        <input id="kbdInput" type="text"> </input> <br/>
+        <button id="Q" class="button" onclick="input(Q);">Q</button>
+        <button id="W" class="button" onclick="input(W);">W</button>
+        <button id="E" class="button" onclick="input(E);">E</button>
+        <button id="R" class="button" onclick="input(E);">R</button>
+        <button id="T" class="button" onclick="input(E);">T</button>
+        <button id="Y" class="button" onclick="input(E);">Y</button>
+        <button id="U" class="button" onclick="input(E);">U</button>
+        <button id="I" class="button" onclick="input(E);">I</button>
+        <button id="O" class="button" onclick="input(E);">O</button>
+        <button id="P" class="button" onclick="input(E);">P</button>
+        <button id="Backspace" class="backspace_button" onclick="input(E);">Backspace</button>
+        <br/>
+        <button id="A" class="button" onclick="input(Q);">A</button>
+        <button id="S" class="button" onclick="input(W);">S</button>
+        <button id="D" class="button" onclick="input(E);">D</button>
+        <button id="F" class="button" onclick="input(E);">F</button>
+        <button id="G" class="button" onclick="input(E);">G</button>
+        <button id="H" class="button" onclick="input(E);">H</button>
+        <button id="J" class="button" onclick="input(E);">J</button>
+        <button id="K" class="button" onclick="input(E);">K</button>
+        <button id="L" class="button" onclick="input(E);">L</button>
+        <button id="." class="button" onclick="input(E);">.</button>
+        <button id="," class="button" onclick="input(E);">,</button>
+        <button id="Enter" class="enter_button" onclick="input(E);">Enter</button>
+        <br/>
+        <button id="Z" class="button" onclick="input(Q);">Z</button>
+        <button id="X" class="button" onclick="input(W);">X</button>
+        <button id="C" class="button" onclick="input(E);">C</button>
+        <button id="V" class="button" onclick="input(E);">V</button>
+        <button id="B" class="button" onclick="input(E);">B</button>
+        <button id="N" class="button" onclick="input(E);">N</button>
+        <button id="M" class="button" onclick="input(E);">M</button>
+        <button id="<" class="button" onclick="input(E);"><</button>
+        <button id=">" class="button" onclick="input(E);">></button>
+        <button id="!" class="button" onclick="input(E);">!</button>
+        <button id="?" class="button" onclick="input(E);">?</button>
+        <button id="Shift" class="shift_button" onclick="input(E);">Shift</button>
+        <br />
+        <button id="Spacebar" class="space_button" onclick="input(this)">Spacebar</button>
+      </div>
+      <div>
+        <input type="range" id="toneSlider" name="volume" min="0" max="11">
+         <label for="tone">Tone</label>
+      </div>
+    </section>
+    <script src="AAC.js" type="text/javascript"></script>
+  </body>
+
+</html>
